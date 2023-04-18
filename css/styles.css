@@ -1,0 +1,226 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  max-width: 1280px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  font-size: 20px;
+  color: purple;
+  text-decoration: none;
+}
+
+.hero1 {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/karatechild.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero1 h1 {
+  font-size: 60px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+.hero1 p {
+  font-size: 20px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+
+.hero2 {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/cryingonion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero2 h1 {
+  font-size: 60px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+.hero2 p {
+  font-size: 20px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+
+.hero3 {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/nuke.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero3 h1 {
+  font-size: 60px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+.hero3 p {
+  font-size: 20px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+
+.hero4 {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/happy-children-different-races-color-holding-hands-standing-globe-planet-color_619989-968.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero4 h1 {
+  font-size: 60px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+.hero4 p {
+  font-size: 20px;
+  color: purple;
+  -webkit-text-stroke: 1px black;
+}
+
+.extraparagraphs {
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.extraparagraphs p {
+  color: purple;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.profiles {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: block;
+}
+.profiles .container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.profiles .container img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+.profiles .container p {
+  color: purple;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer h1 {
+  font-size: 10px;
+  color: purple;
+}
